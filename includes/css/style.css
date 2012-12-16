@@ -1,0 +1,156 @@
+/*This is the main style to give it the look and feel of elegance*/
+
+::-moz-selection {
+	background: #fe57a1;
+	color: #fff;
+	text-shadow: none;
+}
+
+::selection {
+	background: #fe57a1;
+	color: #fff;
+	text-shadow: none;
+}
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	background: #F0F0F0 url('/modules/contentbox/layouts/elegance/includes/images/background.jpg') top center no-repeat;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 1.4;
+	color: #737373;
+}
+
+a {
+	color:#383838;
+}
+	a:visited {
+		color:#646464;
+	}
+	a:hover {
+		color:#929292;
+	}
+
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+label {
+	display: block;
+}
+
+input[type="submit"], button {
+	cursor: pointer;
+	color: white;
+	padding: 7px 10px;
+	border: 0;
+	font-weight: bold;
+	background: #999;
+}
+
+/*Main containers*/
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.main{
+	padding: 30px 20px 50px;
+	border: 1px solid #B3B3B3;
+	border-radius: 4px;
+	margin: 0 auto;
+	box-shadow: 0 1px 10px #A7A7A7, inset 0 1px 0 white;
+	background: #FCFCFC;
+	position:relative;
+}
+
+#mainmenu{
+	border-top: 2px solid #BEBEBE;
+	border-bottom: 2px solid #BEBEBE;
+}
+
+#menu > li{
+	display:inline;
+	padding-left: 20px;
+}
+
+#menu > li > a{
+	text-decoration: none;
+}
+
+.content{
+	width: 600px;
+	position: relative;
+	float: left;
+}
+
+.sidebar {
+	width: 280px;
+	float: right;
+	position: relative;
+	font-size: 14px;
+}
+
+.footer{
+	font-size: 14px;
+	line-height: 14px;	
+}
+
+#footer_menu{
+	float: left;
+}
+
+#copy{
+	float: right;
+}
+
+.contentBar {
+	border-top: 1px solid #EBEBEB;
+	padding: 10px 0;
+}
+
+/*General Classes*/
+
+.clean-link{
+	text-decoration: none;
+}
+
+.blog-post{
+	padding-bottom: 10px;
+	border-bottom: 2px solid #4D4D4D;
+}
+
+.pagingTabsCarrousel {
+	text-align: center;
+	border-top: 1px solid #EBEBEB;
+	padding: 10px 0;
+}
+
+.pagingTabsTotals {
+	padding: 10px 0;
+}
+
+.blog-date, .commentPicture {
+	font-size: 12px;
+	float: left;
+	padding: 10px 20px 20px 0;
+	border-right: 1px solid #EBEBEB;
+	margin: 10px 10px;
+}
+
+hr{
+	width:100%;
+	border-top: 1px solid #BEBEBE;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.clear{
+	clear: both;
+}
